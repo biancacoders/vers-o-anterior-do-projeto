@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    
+    <title>Calculadora</title>
+</head>
+<body>
+<main>
+<h1>      EQUAÇÃO DE SEGUNDO GRAU     </h1>
+<p>Fórmula : a(x^2)+b(x)+c = 0</p>
+<p> Δ = (b^2)-4*a*c</p>
+<p>bhaskara = -b±√Δ/(2*a)</p>
+
+<form>
+
+<div >
+<label >VALOR A: </label>
+    <input type="text" id="idtextA">
+</div>
+
+
+<div >
+<label >VALOR B: </label>
+    <input type="text" id="idtextB">
+
+</div>
+
+
+<div >  
+
+<label >VALOR C: </label>
+    <input type="text" id="idtextC"> <br><br>
+
+</div>
+
+<div>
+
+    <button id="calcularBtn">Calcular</button>
+    <button id="limparBtn" type="reset">Limpar</button>
+    
+</div>
+
+<div id="resultados" class="hidden">
+    <h2>Resultados:</h2>
+    <p id="deltaRes"></p>
+    <p id="bhaskaraRes"></p>
+</div>
+
+      
+</form>
+
+</main>
+    
+</body>
+</html>
